@@ -16,6 +16,6 @@ defmodule AetherLens.Mixfile do
   end
 
   defp deps do
-    []
+    [{:httpoison, "~> 0.9.0"}]
   end
 end
